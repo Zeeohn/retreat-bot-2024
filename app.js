@@ -46,13 +46,33 @@ bot.onText(/\/get/, (msg) => {
 
       if (user) {
         userSessions[userId] = { registered: true, code: user.code };
-        bot.sendMessage(
-          chatId,
-          `Welcome to Word Sanctuary Leadership Retreat 2024 ${user.name}! Your identification code is: ${user.code} . Please present this code for check-in. Thank you Sir.`
-        );
+        bot
+          .sendMessage(
+            chatId,
+            `Happy are you ${user.office} ${user.name} and welcome to Word Sanctuary Leadership Retreat 2024! \nYour identification code is: \n\n${user.code} \n\n Please present this code for check-in. \nThank you Sir.`
+          )
+          .then(() => {
+            sendFile(chatId);
 
-        // Send the PDF documents
-        sendDocuments(chatId);
+            // const queryOptions = {
+            //   caption: "Leadership Retreat 2024 Docket",
+            // };
+
+            // const fileOptions = {
+            //   filename: "Leadership Retreat 2024 Docket.pdf",
+            //   contentType: "application/pdf",
+            // };
+
+            // // Send the PDF document
+            // bot
+            //   .sendDocument(
+            //     chatId,
+            //     fs.createReadStream("./document.pdf"),
+            //     queryOptions,
+            //     fileOptions
+            //   )
+            //   .catch((err) => console.error(`Failed to send document: `, err));
+          });
       } else {
         bot.sendMessage(
           chatId,
@@ -60,9 +80,9 @@ bot.onText(/\/get/, (msg) => {
         );
       }
     } else {
-      bot.sendMessage(chatId, `Your code is: ${userCode}`);
-      // Send the PDF documents
-      sendDocuments(chatId);
+      bot.sendMessage(chatId, `Your code is: \n\n${userCode}`).then(() => {
+        sendFile(chatId);
+      });
     }
   } else {
     bot.sendMessage(
@@ -89,13 +109,15 @@ bot.on("message", (msg) => {
 
     if (user) {
       userSessions[userId] = { registered: true, code: user.code };
-      bot.sendMessage(
-        chatId,
-        `Welcome to Word Sanctuary Retreat 2024 ${user.name}! Your identification code is: ${user.code} . Please present this code for check-in. Thank you Sir.`
-      );
 
-      // Send the PDF documents
-      sendDocuments(chatId);
+      bot
+        .sendMessage(
+          chatId,
+          `Happy are you ${user.office} ${user.name} and welcome to Word Sanctuary Leadership Retreat 2024! \nYour identification code is: \n\n${user.code} \n\nPlease present this code for check-in. \nThank you Sir.`
+        )
+        .then(() => {
+          sendFile(chatId);
+        });
     } else {
       bot.sendMessage(
         chatId,
@@ -105,15 +127,25 @@ bot.on("message", (msg) => {
   }
 });
 
-// Function to send PDF documents
-function sendDocuments(chatId) {
-  const documents = ["/GLOBAL_INVITE.pdf"]; // Replace with actual paths to your documents
+function sendFile(chatId) {
+  const queryOptions = {
+    caption:
+      "Leadership Retreat 2024 Docket, kindly download and view. \nHappy are you!",
+  };
 
-  documents.forEach((doc) => {
-    bot
-      .sendDocument(chatId, doc)
-      .catch((err) => console.error(`Failed to send document ${doc}:`, err));
-  });
+  const fileOptions = {
+    filename: "Leadership Retreat 2024 Docket.pdf",
+    contentType: "application/pdf",
+  };
+
+  bot
+    .sendDocument(
+      chatId,
+      "BQACAgQAAxkBAAEt8pZm9V4YmwAB8KVrxY2YYXnEE8tSzi4AAmAUAAKchLBTMlloc4ITa602BA",
+      queryOptions,
+      fileOptions
+    )
+    .catch((err) => console.error(`Failed to send document: `, err));
 }
 
 console.log("Bot is running...");

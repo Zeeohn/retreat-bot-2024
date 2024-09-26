@@ -2,991 +2,1195 @@
   {
     "id": 1,
     "name": "Temple Omolehin",
-    "code": "TO001"
+    "code": "TO001",
+    "office": "Pastor"
   },
   {
     "id": 2,
     "name": "Omolara Omolehin",
-    "code": "OO002"
+    "code": "OO002",
+    "office": "Pastor"
   },
   {
     "id": 3,
     "name": "Moyo Omolehin",
-    "code": "MO003"
+    "code": "MO003",
+    "office": "Pastor"
   },
   {
     "id": 4,
     "name": "Oyinkansola Omolehin",
-    "code": "OO004"
+    "code": "OO004",
+    "office": "Pastor"
   },
   {
     "id": 5,
     "name": "Ayanfeoluwa Aliu",
-    "code": "AA005"
+    "code": "AA005",
+    "office": "Pastor"
   },
   {
     "id": 6,
     "name": "Micheal Jackson",
-    "code": "MJ006"
+    "code": "MJ006",
+    "office": "Pastor"
   },
   {
     "id": 7,
     "name": "Elijah Olorunipa",
-    "code": "EO007"
+    "code": "EO007",
+    "office": "Evangelist"
   },
   {
     "id": 8,
     "name": "Omotayo Ojo",
-    "code": "OO008"
+    "code": "OO008",
+    "office": "Minister"
   },
   {
     "id": 9,
     "name": "Azeez Yiza",
-    "code": "AY009"
+    "code": "AY009",
+    "office": "Minister"
   },
   {
     "id": 10,
     "name": "Taiyelolu Ajayi",
-    "code": "TA010"
+    "code": "TA010",
+    "office": "Minister"
   },
   {
     "id": 11,
     "name": "Joy Iroaganachi",
-    "code": "JI011"
+    "code": "JI011",
+    "office": "Minister"
   },
   {
     "id": 12,
     "name": "Dorcas Adi",
-    "code": "DA012"
+    "code": "DA012",
+    "office": "Minister"
   },
   {
     "id": 13,
     "name": "Veronica Micheal Jackson",
-    "code": "VMJ013"
+    "code": "VM013",
+    "office": "Minister"
   },
   {
     "id": 14,
     "name": "Samson Owojaye",
-    "code": "SO014"
+    "code": "SO014",
+    "office": "Minister"
   },
   {
     "id": 15,
     "name": "Ayomikun Crown",
-    "code": "AC015"
+    "code": "AC015",
+    "office": "Minister"
   },
   {
     "id": 16,
     "name": "Oyindamola Crown",
-    "code": "OC016"
+    "code": "OC016",
+    "office": "Minister"
   },
   {
     "id": 17,
     "name": "Seun James",
-    "code": "SJ017"
+    "code": "SJ017",
+    "office": "Minister"
   },
   {
     "id": 18,
     "name": "Adeola Ajayi",
-    "code": "AA018"
+    "code": "AA018",
+    "office": "Minister"
   },
   {
     "id": 19,
     "name": "Rhoda Adebayo",
-    "code": "RA019"
+    "code": "RA019",
+    "office": "Minister"
   },
   {
     "id": 20,
     "name": "Victor Ajibaiye",
-    "code": "VA020"
+    "code": "VA020",
+    "office": "Minister"
   },
   {
     "id": 21,
     "name": "Ronke Ajibaiye",
-    "code": "RA021"
+    "code": "RA021",
+    "office": "Minister"
   },
   {
     "id": 22,
     "name": "Jemima Adi",
-    "code": "JA022"
+    "code": "JA022",
+    "office": "Minister"
   },
   {
     "id": 23,
     "name": "Ibukun Ajayi",
-    "code": "IA023"
+    "code": "IA023",
+    "office": "Minister"
   },
   {
     "id": 24,
     "name": "Kehinde Ajayi",
-    "code": "KA024"
+    "code": "KA024",
+    "office": "Minister"
   },
   {
     "id": 25,
     "name": "Samson Afolayan",
-    "code": "SA025"
+    "code": "SA025",
+    "office": "Minister"
   },
   {
     "id": 26,
     "name": "Olatise Wealth",
-    "code": "OW026"
+    "code": "OW026",
+    "office": "Minister"
   },
   {
     "id": 27,
     "name": "Oyindun Wealth",
-    "code": "OW027"
+    "code": "OW027",
+    "office": "Minister"
   },
   {
     "id": 28,
     "name": "Aikhenomian Oyindamola",
-    "code": "AO028"
+    "code": "AO028",
+    "office": "Minister"
   },
   {
     "id": 29,
     "name": "Adebayo Jeremiah",
-    "code": "AJ029"
+    "code": "AJ029",
+    "office": "Minister"
   },
   {
     "id": 30,
     "name": "Makanjuola Edwin",
-    "code": "ME030"
+    "code": "ME030",
+    "office": "HOD"
   },
   {
     "id": 31,
     "name": "Busayo Owolabi",
-    "code": "BO031"
+    "code": "BO031",
+    "office": "HOD"
   },
   {
     "id": 32,
     "name": "Olamide Bello",
-    "code": "OB032"
+    "code": "OB032",
+    "office": "HOD"
   },
   {
     "id": 33,
     "name": "Faromika Oreoluwa",
-    "code": "FO033"
+    "code": "FO033",
+    "office": "HOD"
   },
   {
     "id": 34,
     "name": "Kelvin Okoli",
-    "code": "KO034"
+    "code": "KO034",
+    "office": "HOD"
   },
   {
     "id": 35,
     "name": "Funmilayo Ayodele",
-    "code": "FA035"
+    "code": "FA035",
+    "office": "HOD"
   },
   {
     "id": 36,
     "name": "Victor Oresanya",
-    "code": "VO036"
+    "code": "VO036",
+    "office": "HOD"
   },
   {
     "id": 37,
     "name": "Iyanu Asaolu",
-    "code": "IA037"
+    "code": "IA037",
+    "office": "HOD"
   },
   {
     "id": 38,
     "name": "Bodunde Toyin",
-    "code": "BT038"
+    "code": "BT038",
+    "office": "HOD"
   },
   {
     "id": 39,
     "name": "Oluwatosin Adewunmi",
-    "code": "OA039"
+    "code": "OA039",
+    "office": "HOD"
   },
   {
     "id": 40,
     "name": "Temitope Adeyemo",
-    "code": "TA040"
+    "code": "TA040",
+    "office": "HOD"
   },
   {
     "id": 41,
     "name": "Ayombo Akinsade",
-    "code": "AA041"
+    "code": "AA041",
+    "office": "HOD"
   },
   {
     "id": 42,
     "name": "Folorunsho Samuel",
-    "code": "FS042"
+    "code": "FS042",
+    "office": "HOD"
   },
   {
     "id": 43,
     "name": "Toyin Alade",
-    "code": "TA043"
+    "code": "TA043",
+    "office": "HOD"
   },
   {
     "id": 44,
     "name": "Temitayo Ogunniyi",
-    "code": "TO044"
+    "code": "TO044",
+    "office": "HOD"
   },
   {
     "id": 45,
     "name": "Olumoroti Toyin",
-    "code": "OT045"
+    "code": "OT045",
+    "office": "HOD"
   },
   {
     "id": 46,
     "name": "Adebayo Grace",
-    "code": "AG046"
+    "code": "AG046",
+    "office": "HOD"
   },
   {
     "id": 47,
     "name": "Ajibade Pelumi",
-    "code": "AP047"
+    "code": "AP047",
+    "office": "HOD"
   },
   {
     "id": 48,
     "name": "Ojeranti Olubunmi",
-    "code": "OO048"
+    "code": "OO048",
+    "office": "HOD"
   },
   {
     "id": 49,
     "name": "Oforishe Peter",
-    "code": "OP049"
+    "code": "OP049",
+    "office": "HOD"
   },
   {
     "id": 50,
     "name": "Akanji Motunrayo",
-    "code": "AM050"
+    "code": "AM050",
+    "office": "HOD"
   },
   {
     "id": 51,
     "name": "Adeosun Seyi",
-    "code": "AS051"
+    "code": "AS051",
+    "office": "HOD"
   },
   {
     "id": 52,
     "name": "Ajare Ayomikun",
-    "code": "AA052"
+    "code": "AA052",
+    "office": "HOD"
   },
   {
     "id": 53,
     "name": "Banke Omidiji",
-    "code": "BO053"
+    "code": "BO053",
+    "office": "HOD"
   },
   {
     "id": 54,
     "name": "Yinka Ashaye",
-    "code": "YA054"
+    "code": "YA054",
+    "office": "HOD"
   },
   {
     "id": 55,
     "name": "Ademiluka Precious",
-    "code": "AP055"
+    "code": "AP055",
+    "office": "HOD"
   },
   {
     "id": 56,
     "name": "Ikape Deborah",
-    "code": "ID056"
+    "code": "ID056",
+    "office": "HOD"
   },
   {
     "id": 57,
     "name": "Afolabi Fasakin",
-    "code": "AF057"
+    "code": "AF057",
+    "office": "HOD"
   },
   {
     "id": 58,
     "name": "Emediong Udoh",
-    "code": "EU058"
+    "code": "EU058",
+    "office": "HOD"
   },
   {
     "id": 59,
     "name": "Ewaoluwa Ajani",
-    "code": "EA059"
+    "code": "EA059",
+    "office": "HOD"
   },
   {
     "id": 60,
     "name": "Godwin Alohutade",
-    "code": "GA060"
+    "code": "GA060",
+    "office": "HOD"
   },
   {
     "id": 61,
     "name": "Favour Napoleon",
-    "code": "FN061"
+    "code": "FN061",
+    "office": "HOD"
   },
   {
     "id": 62,
     "name": "Oyinola Ogunlaja",
-    "code": "OO062"
+    "code": "OO062",
+    "office": "HOD"
   },
   {
     "id": 63,
     "name": "Victoria Adio",
-    "code": "VA063"
+    "code": "VA063",
+    "office": "HOD"
   },
   {
     "id": 64,
     "name": "Shola Adio",
-    "code": "SA064"
+    "code": "SA064",
+    "office": "HOD"
   },
   {
     "id": 65,
     "name": "Tobi Afolabi",
-    "code": "TA065"
+    "code": "TA065",
+    "office": "HOD"
   },
   {
     "id": 66,
     "name": "Christianah Owojaye",
-    "code": "CO066"
+    "code": "CO066",
+    "office": "HOD"
   },
   {
     "id": 67,
     "name": "Shola Orunmole",
-    "code": "SO067"
+    "code": "SO067",
+    "office": "HOD"
   },
   {
     "id": 68,
     "name": "Esther Odutola",
-    "code": "EO068"
+    "code": "EO068",
+    "office": "HOD"
   },
   {
     "id": 69,
     "name": "Peter Ogundeji",
-    "code": "PO069"
+    "code": "PO069",
+    "office": "HOD"
   },
   {
     "id": 70,
     "name": "Bodunde Victor",
-    "code": "BV070"
+    "code": "BV070",
+    "office": "HOD"
   },
   {
     "id": 71,
     "name": "Owolabi Pelumi",
-    "code": "OP071"
+    "code": "OP071",
+    "office": "HOD"
   },
   {
     "id": 72,
     "name": "Babajide Kate",
-    "code": "BK072"
+    "code": "BK072",
+    "office": "HOD"
   },
   {
     "id": 73,
     "name": "Michael Joy",
-    "code": "MJ073"
+    "code": "MJ073",
+    "office": "HOD"
   },
   {
     "id": 74,
     "name": "Omotinugbon John",
-    "code": "OJ074"
+    "code": "OJ074",
+    "office": "HOD"
   },
   {
     "id": 75,
     "name": "Idowu Taiwo",
-    "code": "IT075"
+    "code": "IT075",
+    "office": "HOD"
   },
   {
     "id": 76,
     "name": "Oladimeji Benjamin",
-    "code": "OB076"
+    "code": "OB076",
+    "office": "HOD"
   },
   {
     "id": 77,
     "name": "Adeleke Ruth",
-    "code": "AR077"
+    "code": "AR077",
+    "office": "HOD"
   },
   {
     "id": 78,
     "name": "Kingston Victor",
-    "code": "KV078"
+    "code": "KV078",
+    "office": "HOD"
   },
   {
     "id": 79,
     "name": "Eniola Olagunju",
-    "code": "EO079"
+    "code": "EO079",
+    "office": "HOD"
   },
   {
     "id": 80,
     "name": "Omokhekpen Aigbogun",
-    "code": "OA080"
+    "code": "OA080",
+    "office": "HOD"
   },
   {
     "id": 81,
     "name": "Seyi Olatunde",
-    "code": "SO081"
+    "code": "SO081",
+    "office": "HOD"
   },
   {
     "id": 82,
     "name": "Abosede Ajayi",
-    "code": "AA082"
+    "code": "AA082",
+    "office": "HOD"
   },
   {
     "id": 83,
     "name": "Adebayo Pelumi",
-    "code": "AP083"
+    "code": "AP083",
+    "office": "HOD"
   },
   {
     "id": 84,
     "name": "Jumoke Dada",
-    "code": "JD084"
+    "code": "JD084",
+    "office": "HOD"
   },
   {
     "id": 85,
     "name": "Adu Adekunle",
-    "code": "AA085"
+    "code": "AA085",
+    "office": "HOD"
   },
   {
     "id": 86,
     "name": "Aina Peter",
-    "code": "AP086"
+    "code": "AP086",
+    "office": "HOD"
   },
   {
     "id": 87,
     "name": "Adewumi Boluwatife",
-    "code": "AB087"
+    "code": "AB087",
+    "office": "HOD"
   },
   {
     "id": 88,
     "name": "Kingston Frank",
-    "code": "KF088"
+    "code": "KF088",
+    "office": "HOD"
   },
   {
     "id": 89,
     "name": "Orooniyi Emmanuel",
-    "code": "OE089"
+    "code": "OE089",
+    "office": "HOD"
   },
   {
     "id": 90,
     "name": "David Olunaike",
-    "code": "DO090"
+    "code": "DO090",
+    "office": "HOD"
   },
   {
     "id": 91,
     "name": "Deborah Olaleye",
-    "code": "DO091"
+    "code": "DO091",
+    "office": "HOD"
   },
   {
     "id": 92,
     "name": "Promise Ibitoye",
-    "code": "PI092"
+    "code": "PI092",
+    "office": "HOD"
   },
   {
     "id": 93,
     "name": "Daniel Ajayi",
-    "code": "DA093"
+    "code": "DA093",
+    "office": "HOD"
   },
   {
     "id": 94,
     "name": "Joy Paul",
-    "code": "JP094"
+    "code": "JP094",
+    "office": "HOD"
   },
   {
     "id": 95,
     "name": "Ife Adegbite",
-    "code": "IA095"
+    "code": "IA095",
+    "office": "HOD"
   },
   {
     "id": 96,
     "name": "Tobi Gideon",
-    "code": "TG096"
+    "code": "TG096",
+    "office": "HOD"
   },
   {
     "id": 97,
     "name": "Bukola Ajayi",
-    "code": "BA097"
+    "code": "BA097",
+    "office": "HOD"
   },
   {
     "id": 98,
     "name": "Moji Ogbonlato",
-    "code": "MO098"
+    "code": "MO098",
+    "office": "HOD"
   },
   {
     "id": 99,
     "name": "Pelumi Oladipo",
-    "code": "PO099"
+    "code": "PO099",
+    "office": "HOD"
   },
   {
     "id": 100,
     "name": "Blessing Olushola",
-    "code": "BO100"
+    "code": "BO100",
+    "office": "HOD"
   },
   {
     "id": 101,
     "name": "Tosin Cornelius",
-    "code": "TC101"
+    "code": "TC101",
+    "office": "HOD"
   },
   {
     "id": 102,
     "name": "Clement Ebong",
-    "code": "CE102"
+    "code": "CE102",
+    "office": "HOD"
   },
   {
     "id": 103,
     "name": "Atunde Peter",
-    "code": "AP103"
+    "code": "AP103",
+    "office": "HOD"
   },
   {
     "id": 104,
     "name": "Adeleke Hannah",
-    "code": "AH104"
+    "code": "AH104",
+    "office": "HOD"
   },
   {
     "id": 105,
     "name": "Amuda Samuel",
-    "code": "AS105"
+    "code": "AS105",
+    "office": "HOD"
   },
   {
     "id": 106,
     "name": "Aikhenomian Peter",
-    "code": "AP106"
+    "code": "AP106",
+    "office": "HOD"
   },
   {
     "id": 107,
     "name": "Ashaye Olawale",
-    "code": "AO107"
+    "code": "AO107",
+    "office": "HOD"
   },
   {
     "id": 108,
     "name": "Adebayo John",
-    "code": "AJ108"
+    "code": "AJ108",
+    "office": "HOD"
   },
   {
     "id": 109,
     "name": "Olawale Samuel",
-    "code": "OS109"
+    "code": "OS109",
+    "office": "HOD"
   },
   {
     "id": 110,
     "name": "Janet Bola",
-    "code": "JB110"
+    "code": "JB110",
+    "office": "HOD"
   },
   {
     "id": 111,
     "name": "James Afolabi",
-    "code": "JA111"
+    "code": "JA111",
+    "office": "HOD"
   },
   {
     "id": 112,
     "name": "Ogunlade Segun",
-    "code": "OS112"
+    "code": "OS112",
+    "office": "HOD"
   },
   {
     "id": 113,
     "name": "Esan Blessing",
-    "code": "EB113"
+    "code": "EB113",
+    "office": "HOD"
   },
   {
     "id": 114,
     "name": "Olawale Tayo",
-    "code": "OT114"
+    "code": "OT114",
+    "office": "HOD"
   },
   {
     "id": 115,
     "name": "Olawale Blessing",
-    "code": "OB115"
+    "code": "OB115",
+    "office": "HOD"
   },
   {
     "id": 116,
     "name": "Adeleke Samuel",
-    "code": "AS116"
+    "code": "AS116",
+    "office": "HOD"
   },
   {
     "id": 117,
     "name": "Eseyin Dorcas",
-    "code": "ED117"
+    "code": "ED117",
+    "office": "HOD"
   },
   {
     "id": 118,
     "name": "Moji Ogbonlato",
-    "code": "MO118"
+    "code": "MO118",
+    "office": "HOD"
   },
   {
     "id": 119,
     "name": "Olawale Marvelous",
-    "code": "OM119"
+    "code": "OM119",
+    "office": "Assistant HOD"
   },
   {
     "id": 120,
     "name": "Emidun Mosope",
-    "code": "EM120"
+    "code": "EM120",
+    "office": "Assistant HOD"
   },
   {
     "id": 121,
     "name": "Jibowu Kajoteni",
-    "code": "JK121"
+    "code": "JK121",
+    "office": "Assistant HOD"
   },
   {
     "id": 122,
     "name": "Adeoti Dennis",
-    "code": "AD122"
+    "code": "AD122",
+    "office": "Assistant HOD"
   },
   {
     "id": 123,
     "name": "Nasiru Gbemisola",
-    "code": "NG123"
+    "code": "NG123",
+    "office": "Assistant HOD"
   },
   {
     "id": 124,
     "name": "Ojelade Tobiloba",
-    "code": "OT124"
+    "code": "OT124",
+    "office": "Assistant HOD"
   },
   {
     "id": 125,
     "name": "Adekunle Stephen",
-    "code": "AS125"
+    "code": "AS125",
+    "office": "Assistant HOD"
   },
   {
     "id": 126,
     "name": "Akinboye Triumph",
-    "code": "AT126"
+    "code": "AT126",
+    "office": "Assistant HOD"
   },
   {
     "id": 127,
     "name": "Pascalin Joseph",
-    "code": "PJ127"
+    "code": "PJ127",
+    "office": "Assistant HOD"
   },
   {
     "id": 128,
     "name": "Pascalia Joseph",
-    "code": "PJ128"
+    "code": "PJ128",
+    "office": "Assistant HOD"
   },
   {
     "id": 129,
     "name": "Timilehin Omidiji",
-    "code": "TO129"
+    "code": "TO129",
+    "office": "Assistant HOD"
   },
   {
     "id": 130,
     "name": "Julius Ayodele",
-    "code": "JA130"
+    "code": "JA130",
+    "office": "Assistant HOD"
   },
   {
     "id": 131,
     "name": "Babara Afolayan",
-    "code": "BA131"
+    "code": "BA131",
+    "office": "Assistant HOD"
   },
   {
     "id": 132,
     "name": "Ogunsola Tobi",
-    "code": "OT132"
+    "code": "OT132",
+    "office": "Assistant HOD"
   },
   {
     "id": 133,
     "name": "Theresa Ejuone",
-    "code": "TE133"
+    "code": "TE133",
+    "office": "Assistant HOD"
   },
   {
     "id": 134,
     "name": "Bamise Afolabi",
-    "code": "BA134"
+    "code": "BA134",
+    "office": "Assistant HOD"
   },
   {
     "id": 135,
     "name": "Timothy Famoroti",
-    "code": "TF135"
+    "code": "TF135",
+    "office": "Assistant HOD"
   },
   {
     "id": 136,
     "name": "Shina Oladipo",
-    "code": "SO136"
+    "code": "SO136",
+    "office": "Assistant HOD"
   },
   {
     "id": 137,
     "name": "Olofinjana Temiloluwa",
-    "code": "OT137"
+    "code": "OT137",
+    "office": "Assistant HOD"
   },
   {
     "id": 138,
     "name": "Oyindamola Tayo",
-    "code": "OT138"
+    "code": "OT138",
+    "office": "Assistant HOD"
   },
   {
     "id": 139,
     "name": "Aiyedun Victor",
-    "code": "AV139"
+    "code": "AV139",
+    "office": "Assistant HOD"
   },
   {
     "id": 140,
     "name": "Busayo Oyinloye",
-    "code": "BO140"
+    "code": "BO140",
+    "office": "Assistant HOD"
   },
   {
     "id": 141,
     "name": "Eseyin Korede",
-    "code": "EK141"
+    "code": "EK141",
+    "office": "Assistant HOD"
   },
   {
     "id": 142,
     "name": "Deborah Ojo",
-    "code": "DO142"
+    "code": "DO142",
+    "office": "Assistant HOD"
   },
   {
     "id": 143,
     "name": "Okonkwo Jeremiah",
-    "code": "OJ143"
+    "code": "OJ143",
+    "office": "Assistant HOD"
   },
   {
     "id": 144,
     "name": "Joy Joseph",
-    "code": "JJ144"
+    "code": "JJ144",
+    "office": "Assistant HOD"
   },
   {
     "id": 145,
     "name": "Adewara Ruth",
-    "code": "AR145"
+    "code": "AR145",
+    "office": "Assistant HOD"
   },
   {
     "id": 146,
     "name": "Meseru Happiness",
-    "code": "MH146"
+    "code": "MH146",
+    "office": "Assistant HOD"
   },
   {
     "id": 147,
     "name": "Ibukun Ayo-Ayinde",
-    "code": "IA147"
+    "code": "IA147",
+    "office": "Assistant HOD"
   },
   {
     "id": 148,
     "name": "Adekunle Boluwatife",
-    "code": "AB148"
+    "code": "AB148",
+    "office": "Assistant HOD"
   },
   {
     "id": 149,
     "name": "Tayo Oyindamola",
-    "code": "TO149"
+    "code": "TO149",
+    "office": "Assistant HOD"
   },
   {
     "id": 150,
     "name": "Dadewa Richie",
-    "code": "DR150"
+    "code": "DR150",
+    "office": "Assistant HOD"
   },
   {
     "id": 151,
     "name": "Rukena Glory",
-    "code": "RG151"
+    "code": "RG151",
+    "office": "Assistant HOD"
   },
   {
     "id": 152,
     "name": "Olanrewaju John",
-    "code": "OJ152"
+    "code": "OJ152",
+    "office": "Assistant HOD"
   },
   {
     "id": 153,
     "name": "Olaoye Testimony",
-    "code": "OT153"
+    "code": "OT153",
+    "office": "Assistant HOD"
   },
   {
     "id": 154,
     "name": "Zion Success",
-    "code": "ZS154"
+    "code": "ZS154",
+    "office": "Executive Assistant"
   },
   {
     "id": 155,
     "name": "Osobu Mayowa",
-    "code": "OM155"
+    "code": "OM155",
+    "office": "Executive Assistant"
   },
   {
     "id": 156,
     "name": "Ebiendele Emmanuel",
-    "code": "EE156"
+    "code": "EE156",
+    "office": "Executive Assistant"
   },
   {
     "id": 157,
     "name": "Gbenga Kolawole",
-    "code": "GK157"
+    "code": "GK157",
+    "office": "Executive Assistant"
   },
   {
     "id": 158,
     "name": "Ogbo Emmanuel",
-    "code": "OE158"
+    "code": "OE158",
+    "office": "Executive Assistant"
   },
   {
     "id": 159,
     "name": "Taiye Adegbite",
-    "code": "TA159"
+    "code": "TA159",
+    "office": "Executive Assistant"
   },
   {
     "id": 160,
     "name": "Ekundayo Isreal",
-    "code": "EI160"
+    "code": "EI160",
+    "office": "Executive Assistant"
   },
   {
     "id": 161,
     "name": "Kentonu Micheal",
-    "code": "KM161"
+    "code": "KM161",
+    "office": "Executive Assistant"
   },
   {
     "id": 162,
     "name": "Ruth Bayonle",
-    "code": "RB162"
+    "code": "RB162",
+    "office": "Executive Assistant"
   },
   {
     "id": 163,
     "name": "Pelumi Tayo",
-    "code": "PT163"
+    "code": "PT163",
+    "office": "Executive Assistant"
   },
   {
     "id": 164,
     "name": "Fiyin Afolayan",
-    "code": "FA164"
+    "code": "FA164",
+    "office": "Executive Assistant"
   },
   {
     "id": 165,
     "name": "Ogundairo Taiwo",
-    "code": "OT165"
+    "code": "OT165",
+    "office": "Executive Assistant"
   },
   {
     "id": 166,
     "name": "Omotinugbon Emmanuel",
-    "code": "OE166"
+    "code": "OE166",
+    "office": "Executive Assistant"
   },
   {
     "id": 167,
     "name": "Faith Oshi",
-    "code": "FO167"
+    "code": "FO167",
+    "office": "Executive Assistant"
   },
   {
     "id": 168,
     "name": "Adegbite Kehinde",
-    "code": "AK168"
+    "code": "AK168",
+    "office": "Executive Assistant"
   },
   {
     "id": 169,
     "name": "Olalundun Pelumi",
-    "code": "OP169"
+    "code": "OP169",
+    "office": "Executive Assistant"
   },
   {
     "id": 170,
     "name": "Kayode Omotola",
-    "code": "KO170"
+    "code": "KO170",
+    "office": "Executive Assistant"
   },
   {
     "id": 171,
     "name": "Obaniyi Peace",
-    "code": "OP171"
+    "code": "OP171",
+    "office": "Executive Assistant"
   },
   {
     "id": 172,
     "name": "Gabriel Gideon",
-    "code": "GG172"
+    "code": "GG172",
+    "office": "Executive Assistant"
   },
   {
     "id": 173,
     "name": "Boluwatife James",
-    "code": "BJ173"
+    "code": "BJ173",
+    "office": "Executive Assistant"
   },
   {
     "id": 174,
     "name": "Olatoye Mary",
-    "code": "OM174"
+    "code": "OM174",
+    "office": "Executive Assistant"
   },
   {
     "id": 175,
     "name": "Desmond Ogbolu",
-    "code": "DO175"
+    "code": "DO175",
+    "office": "Executive Assistant"
   },
   {
     "id": 176,
     "name": "Joy Ezu",
-    "code": "JE176"
+    "code": "JE176",
+    "office": "Executive Assistant"
   },
   {
     "id": 177,
     "name": "Omodunni Victory",
-    "code": "OV177"
+    "code": "OV177",
+    "office": "Executive Assistant"
   },
   {
     "id": 178,
     "name": "Alao Tosin",
-    "code": "AT178"
+    "code": "AT178",
+    "office": "Executive Assistant"
   },
   {
     "id": 179,
     "name": "Abigail Ajakaye",
-    "code": "AA179"
+    "code": "AA179",
+    "office": "Executive Assistant"
   },
   {
     "id": 180,
     "name": "Love Abiodun",
-    "code": "LA180"
+    "code": "LA180",
+    "office": "Lady"
   },
   {
     "id": 181,
     "name": "Patience Isa",
-    "code": "PI181"
+    "code": "PI181",
+    "office": "Lady"
   },
   {
     "id": 182,
     "name": "Okediji Damilola",
-    "code": "OD182"
+    "code": "OD182",
+    "office": "Lady"
   },
   {
     "id": 183,
     "name": "Ojurongbe Esther",
-    "code": "OE183"
+    "code": "OE183",
+    "office": "Lady"
   },
   {
     "id": 184,
     "name": "Osobu Mayowa",
-    "code": "OM184"
+    "code": "OM184",
+    "office": "Executive Assistant"
   },
   {
     "id": 185,
     "name": "Ebiendele Emmanuel",
-    "code": "EE185"
+    "code": "EE185",
+    "office": "Sir"
   },
   {
     "id": 186,
     "name": "Olaoba Olabomi",
-    "code": "OO186"
+    "code": "OO186",
+    "office": "Sir"
   },
   {
     "id": 187,
     "name": "Adebayo Grace",
-    "code": "AG187"
+    "code": "AG187",
+    "office": "Lady"
   },
   {
     "id": 188,
     "name": "Tinuoye Aderonke",
-    "code": "TA188"
+    "code": "TA188",
+    "office": "Lady"
   },
   {
     "id": 189,
     "name": "Odion Oyakhirome",
-    "code": "OO189"
+    "code": "OO189",
+    "office": "Lady"
   },
   {
     "id": 190,
     "name": "Maclean Omolola",
-    "code": "MO190"
+    "code": "MO190",
+    "office": "Lady"
   },
   {
     "id": 191,
     "name": "Oke Abolaji",
-    "code": "OA191"
+    "code": "OA191",
+    "office": "Lady"
   },
   {
     "id": 192,
     "name": "Nicole Akhaboa",
-    "code": "NA192"
+    "code": "NA192",
+    "office": "Executive Assistant"
   },
   {
     "id": 193,
     "name": "Oluwabukolami Balogun",
-    "code": "OB193"
+    "code": "OB193",
+    "office": "Lady"
   },
   {
     "id": 194,
     "name": "Oluwaferanmi Fatile",
-    "code": "OF194"
+    "code": "OF194",
+    "office": "Lady"
   },
   {
     "id": 195,
     "name": "Akinbani Omoronike",
-    "code": "AO195"
+    "code": "AO195",
+    "office": "Lady"
   },
   {
     "id": 196,
     "name": "Treasure Ajala",
-    "code": "TA196"
+    "code": "TA196",
+    "office": "Lady"
   },
   {
     "id": 197,
     "name": "Nesa Akhaboa",
-    "code": "NA197"
+    "code": "NA197",
+    "office": "Assistant HOD"
   },
   {
     "id": 198,
     "name": "Victor Momoh",
-    "code": "VM198"
+    "code": "VM198",
+    "office": "Sir"
+  },
+  {
+    "id": 199,
+    "name": "Richard Akapo",
+    "code": "RA199",
+    "office": "Assistant HOD"
   }
 ]
