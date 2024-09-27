@@ -1,7 +1,7 @@
 {
   "name": "leadership-retreat-2024",
   "description": "Leadership Retreat 2024 Telegram Bot",
-  "main": "app.js",
+  "main": "api/app.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test jest --testTimeout=10000 --detectOpenHandles",
     "dev": "nodemon app.js",
@@ -24,6 +24,7 @@
     "list_end_points": "^2.0.6",
     "mongoose": "^8.6.3",
     "morgan": "^1.10.0",
+    "node-fetch": "^3.3.2",
     "node-telegram-bot-api": "^0.66.0",
     "nodemon": "^3.1.7"
   }
