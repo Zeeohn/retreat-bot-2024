@@ -25,17 +25,27 @@ export default async function handler(req, res) {
       const userId = update.message.from.id;
       const text = update.message.text.trim();
 
+      let messageResult;
+      let fileResult;
+
       if (text === "/start") {
-        return await handleStartCommand(chatId, userId, res);
+        messageResult = await handleStartCommand(chatId, userId);
       } else if (text === "/get") {
-        return await handleGetCommand(chatId, userId, res);
+        messageResult = await handleGetCommand(chatId, userId);
       } else {
-        return await handleUserMessage(chatId, userId, text, res);
+        messageResult = await handleUserMessage(chatId, userId, text);
+      }
+
+      // Send the response based on the result of the message and file sending
+      if (messageResult?.status === "success") {
+        res.status(200).send("Action completed successfully.");
+      } else {
+        res.status(500).send("An error occurred.");
       }
     }
+  } else {
+    res.status(200).send("OK");
   }
-
-  res.status(200).send("OK");
 }
 
 // Start command handler
@@ -57,23 +67,28 @@ async function handleStartCommand(chatId, userId, res) {
 }
 
 // Get command handler
-async function handleGetCommand(chatId, userId, res) {
+async function handleGetCommand(chatId, userId) {
   if (userSessions[userId] && userSessions[userId].registered) {
     const userCode = userSessions[userId].code;
-    return sendMessage(chatId, `Your code is: \n\n${userCode}`).then(() =>
-      sendFile(chatId, res)
+
+    const messageResult = await sendMessage(
+      chatId,
+      `Your code is: \n\n${userCode}`
     );
+    if (messageResult.status === "success") {
+      const fileResult = await sendFile(chatId);
+      return fileResult;
+    }
+    return messageResult;
   } else {
     return sendMessage(
       chatId,
-      "You are not registered. Please start with /start command.",
-      res
+      "You are not registered. Please start with /start command."
     );
   }
 }
 
-// Handle user messages
-async function handleUserMessage(chatId, userId, userMessage, res) {
+async function handleUserMessage(chatId, userId, userMessage) {
   if (
     userSessions[userId] &&
     userSessions[userId].step === "waiting_for_name"
@@ -84,25 +99,27 @@ async function handleUserMessage(chatId, userId, userMessage, res) {
 
     if (user) {
       userSessions[userId] = { registered: true, code: user.code };
-      return sendMessage(
+      const messageResult = await sendMessage(
         chatId,
-        `Happy are you ${user.office} ${user.name} and welcome to Word Sanctuary Leadership Retreat 2024! \nYour identification code is: \n\n${user.code} \n\nPlease present this code for check-in. \nThank you Sir.`,
-        res
-      ).then(() => sendFile(chatId, res));
+        `Happy are you ${user.office} ${user.name} and welcome to Word Sanctuary Leadership Retreat 2024! \nYour identification code is: \n\n${user.code} \n\nPlease present this code for check-in. \nThank you Sir.`
+      );
+      if (messageResult.status === "success") {
+        const fileResult = await sendFile(chatId);
+        return fileResult;
+      }
+      return messageResult;
     } else {
       return sendMessage(
         chatId,
-        "Sorry, your name was not found in our database. Check if you entered it correctly, else you are not invited.",
-        res
+        "Sorry, your name was not found in our database. Check if you entered it correctly, else you are not invited."
       );
     }
   }
 
-  res.status(200).send("OK");
+  return { status: "success", message: "OK" };
 }
 
-// Send message to user
-async function sendMessage(chatId, text, res) {
+async function sendMessage(chatId, text) {
   const url = `${BASE_URL}sendMessage`;
   const body = {
     chat_id: chatId,
@@ -119,14 +136,12 @@ async function sendMessage(chatId, text, res) {
 
   if (!response.ok) {
     console.error(`Error sending message: ${response.statusText}`);
-    res.status(500).send("Error sending message.");
-  } else {
-    res.status(200).send("Message sent.");
+    return { status: "error", message: "Error sending message" };
   }
+  return { status: "success", message: "Message sent" };
 }
 
-// Send file to user
-async function sendFile(chatId, res) {
+async function sendFile(chatId) {
   const url = `${BASE_URL}sendDocument`;
   const body = {
     chat_id: chatId,
@@ -146,8 +161,7 @@ async function sendFile(chatId, res) {
 
   if (!response.ok) {
     console.error(`Error sending file: ${response.statusText}`);
-    res.status(500).send("Error sending file.");
-  } else {
-    res.status(200).send("File sent.");
+    return { status: "error", message: "Error sending file" };
   }
+  return { status: "success", message: "File sent" };
 }
