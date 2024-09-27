@@ -1,8 +1,12 @@
 import fs from "fs";
 import fetch from "node-fetch";
+import path from "path";
 
-// Load the JSON database
-const usersData = JSON.parse(fs.readFileSync("./nameDatabase.json"));
+const jsonFilePath = path.join(process.cwd(), "api", "nameDatabase.json");
+const usersData = JSON.parse(fs.readFileSync(jsonFilePath, "utf-8"));
+
+// // Load the JSON database
+// const usersData = JSON.parse(fs.readFileSync("./nameDatabase.json"));
 
 // Telegram token and API URL
 const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN;
