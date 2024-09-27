@@ -5,8 +5,8 @@
   "scripts": {
     "test": "cross-env NODE_ENV=test jest --testTimeout=10000 --detectOpenHandles",
     "dev": "nodemon app.js",
-    "build": "babel src -d dist",
-    "start": "node app.js"
+    "build": "babel app.js -d index.js",
+    "start": "node index.js"
   },
   "engines": {
     "node": ">=14.20.1"
