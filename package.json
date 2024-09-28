@@ -1,8 +1,7 @@
 {
   "name": "leadership-retreat-2024",
   "description": "Leadership Retreat 2024 Telegram Bot",
-  "main": "api/app.js",
-  "type": "module",
+  "main": "app.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test jest --testTimeout=10000 --detectOpenHandles",
     "dev": "nodemon app.js",
