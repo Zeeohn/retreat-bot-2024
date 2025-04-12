@@ -1,6 +1,30 @@
 const TelegramBot = require("node-telegram-bot-api");
 const fs = require("fs");
 const env = require("dotenv").config();
+const express = require("express");
+require("./convert");
+
+const app = express();
+
+app.get("/health", (req, res) => {
+  res.status(200).send("OK - Bot is running");
+});
+
+app.listen(process.env.PORT || 3000, () => {
+  console.log("Server is running on port 3000");
+});
+
+function keepAlive() {
+  const url = "http://localhost:3000/health";
+  setInterval(() => {
+    fetch(url)
+      .then(() => console.log("Ping successful"))
+      .catch((err) => console.error("Ping failed:", err));
+  }, 13 * 60 * 1000); // Every 14 minutes (Render times out after 15 min of inactivity)
+}
+
+// Call this function when your app starts
+keepAlive();
 
 // Load the JSON database
 const usersData = JSON.parse(fs.readFileSync("nameDatabase.json"));
@@ -25,7 +49,7 @@ bot.onText(/\/start/, (msg) => {
   } else {
     bot.sendMessage(
       chatId,
-      "Glory to God in us! Please enter your full name according to how it was written in the invite you received i.e 'Temple Omolehin'"
+      "Glory to God in us! Please enter your full name in the exact format it was written in the invite you received i.e 'Temple Omolehin'"
     );
     userSessions[userId] = { step: "waiting_for_name" };
   }
@@ -49,7 +73,7 @@ bot.onText(/\/get/, (msg) => {
         bot
           .sendMessage(
             chatId,
-            `Happy are you ${user.office} ${user.name} and welcome to Word Sanctuary Leadership Retreat 2024! \nYour identification code is: \n\n${user.code} \n\n Please present this code for check-in. \nThank you Sir.`
+            `Happy are you ${user.office} ${user.name} from ${user.installation} and welcome to Word Sanctuary Leadership Retreat 2025! \nYour identification code is: \n\n${user.code} \n\n Please present this code for check-in. \nThank you and remain ever blessed!`
           )
           .then(() => {
             sendFile(chatId);
@@ -113,7 +137,17 @@ bot.on("message", (msg) => {
       bot
         .sendMessage(
           chatId,
-          `Happy are you ${user.office} ${user.name} and welcome to Word Sanctuary Leadership Retreat 2024! \nYour identification code is: \n\n${user.code} \n\nPlease present this code for check-in. \nThank you Sir.`
+          `Happy are you <b>${user.office}</b> <b>${user.name}</b> from <b>${user.installation}</b> and welcome to Word Sanctuary Leadership Retreat 2025! 
+
+Your identification code is: 
+
+<code>${user.code}</code>
+
+Please present this code for check-in. 
+Thank you and remain ever blessed!`,
+          {
+            parse_mode: "HTML",
+          }
         )
         .then(() => {
           sendFile(chatId);
