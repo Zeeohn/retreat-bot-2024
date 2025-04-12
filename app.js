@@ -15,12 +15,12 @@ app.listen(process.env.PORT || 3000, () => {
 });
 
 function keepAlive() {
-  const url = "http://localhost:3000/health";
+  const url = "https://retreat-bot-2024.onrender.com/health";
   setInterval(() => {
     fetch(url)
       .then(() => console.log("Ping successful"))
       .catch((err) => console.error("Ping failed:", err));
-  }, 13 * 60 * 1000); // Every 14 minutes (Render times out after 15 min of inactivity)
+  }, 13 * 60 * 1000); // Every 13 minutes (Render times out after 15 min of inactivity)
 }
 
 // Call this function when your app starts
@@ -29,7 +29,6 @@ keepAlive();
 // Load the JSON database
 const usersData = JSON.parse(fs.readFileSync("nameDatabase.json"));
 
-// Replace 'YOUR_BOT_TOKEN' with the token you got from BotFather
 const bot = new TelegramBot(process.env.TELEGRAM_TOKEN, { polling: true });
 
 // Store user sessions in memory
