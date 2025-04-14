@@ -1069,5 +1069,145 @@
     "code": "EL-OA-153",
     "office": "Lady",
     "installation": "Elizade"
+  },
+  {
+    "id": 154,
+    "name": "Jeremiah Adebayo",
+    "code": "HQ-JA-154",
+    "office": "Minister",
+    "installation": "Headquarters"
+  },
+  {
+    "id": 155,
+    "name": "Ruth Adewara",
+    "code": "HQ-RA-155",
+    "office": "HOD",
+    "installation": "Headquarters"
+  },
+  {
+    "id": 156,
+    "name": "Dorcas Eseyin",
+    "code": "HQ-DE-156",
+    "office": "HOD",
+    "installation": "Headquarters"
+  },
+  {
+    "id": 157,
+    "name": "Samuel Adeleke",
+    "code": "HQ-SA-157",
+    "office": "HOD",
+    "installation": "Headquarters"
+  },
+  {
+    "id": 158,
+    "name": "John Adebayo",
+    "code": "HQ-JA-158",
+    "office": "HOD",
+    "installation": "Headquarters"
+  },
+  {
+    "id": 159,
+    "name": "Ashaye Olawale",
+    "code": "HQ-AO-159",
+    "office": "HOD",
+    "installation": "Headquarters"
+  },
+  {
+    "id": 160,
+    "name": "Richard Akapo",
+    "code": "HQ-RA-160",
+    "office": "Asst HOD",
+    "installation": "Headquarters"
+  },
+  {
+    "id": 161,
+    "name": "Seyi Oyewole",
+    "code": "HQ-SO-161",
+    "office": "Asst HOD",
+    "installation": "Headquarters"
+  },
+  {
+    "id": 162,
+    "name": "Peter Olowomoran",
+    "code": "HQ-PO-162",
+    "office": "Asst HOD",
+    "installation": "Headquarters"
+  },
+  {
+    "id": 163,
+    "name": "Bartholomew Gloria",
+    "code": "HQ-BG-163",
+    "office": "Asst HOD",
+    "installation": "Headquarters"
+  },
+  {
+    "id": 164,
+    "name": "Zion Success",
+    "code": "HQ-ZS-164",
+    "office": "Executive Assistant",
+    "installation": "Headquarters"
+  },
+  {
+    "id": 165,
+    "name": "Theophilus Olaniyi",
+    "code": "HQ-TO-165",
+    "office": "Executive Assistant",
+    "installation": "Headquarters"
+  },
+  {
+    "id": 166,
+    "name": "Gabriel Adeyemi",
+    "code": "HQ-GA-166",
+    "office": "Executive Assistant",
+    "installation": "Headquarters"
+  },
+  {
+    "id": 167,
+    "name": "Gabriel Folorunsho Gideon",
+    "code": "HQ-GF-167",
+    "office": "Executive Assistant",
+    "installation": "Headquarters"
+  },
+  {
+    "id": 168,
+    "name": "Timothy Toluwalase",
+    "code": "GL-TT-168",
+    "office": "HOD",
+    "installation": "Global"
+  },
+  {
+    "id": 169,
+    "name": "Ruth Toluwalase",
+    "code": "GL-RT-169",
+    "office": "HOD",
+    "installation": "Global"
+  },
+  {
+    "id": 170,
+    "name": "Ayodeji Ayilara",
+    "code": "GL-AA-170",
+    "office": "HOD",
+    "installation": "Global"
+  },
+  {
+    "id": 171,
+    "name": "Omo Aigbogun",
+    "code": "GL-OA-171",
+    "office": "HOD",
+    "installation": "Global"
+  },
+  {
+    "id": 172,
+    "name": "Opeyemi Popoola",
+    "code": "GL-OP-172",
+    "office": "Asst HOD",
+    "installation": "Global"
+  },
+  {
+    "id": 173,
+    "name": "Daniel Aina",
+    "code": "GL-DA-173",
+    "office": "Asst HOD",
+    "installation": "Global"
   }
 ]
