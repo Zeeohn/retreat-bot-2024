@@ -163,21 +163,16 @@ Thank you and remain ever blessed!`,
 function sendFile(chatId) {
   const queryOptions = {
     caption:
-      "Leadership Retreat 2024 Docket, kindly download and view. \nHappy are you!",
+      "Leadership Retreat 2025 Docket, kindly download and view. \nHappy are you!",
   };
 
   const fileOptions = {
-    filename: "Leadership Retreat 2024 Docket.pdf",
+    filename: "Leadership Retreat 2025 Docket.pdf",
     contentType: "application/pdf",
   };
 
   bot
-    .sendDocument(
-      chatId,
-      "BQACAgQAAxkBAAEt8pZm9V4YmwAB8KVrxY2YYXnEE8tSzi4AAmAUAAKchLBTMlloc4ITa602BA",
-      queryOptions,
-      fileOptions
-    )
+    .sendDocument(chatId, "./2025_Document.pdf", queryOptions, fileOptions)
     .catch((err) => console.error(`Failed to send document: `, err));
 }
 

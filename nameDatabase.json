@@ -1209,5 +1209,47 @@
     "code": "GL-DA-173",
     "office": "Asst HOD",
     "installation": "Global"
+  },
+  {
+    "id": 174,
+    "name": "Oyinloye Segun",
+    "code": "GL-OS-174",
+    "office": "Asst HOD",
+    "installation": "Global"
+  },
+  {
+    "id": 175,
+    "name": "Owonuwa Favour",
+    "code": "GL-OF-175",
+    "office": "Lady",
+    "installation": "Global"
+  },
+  {
+    "id": 176,
+    "name": "Taderi Adekemisola",
+    "code": "GL-TA-176",
+    "office": "Lady",
+    "installation": "Global"
+  },
+  {
+    "id": 177,
+    "name": "Dadewa Adewusi",
+    "code": "GL-DA-177",
+    "office": "Brother",
+    "installation": "Global"
+  },
+  {
+    "id": 178,
+    "name": "Adeiwa Peter",
+    "code": "GL-AP-178",
+    "office": "Executive Assistant",
+    "installation": "Global"
+  },
+  {
+    "id": 179,
+    "name": "Oluwatetisimi Jooda",
+    "code": "GL-OJ-179",
+    "office": "Lady",
+    "installation": "Global"
   }
 ]
