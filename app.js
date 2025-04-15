@@ -172,7 +172,15 @@ function sendFile(chatId) {
   };
 
   bot
-    .sendDocument(chatId, "./2025_Document.pdf", queryOptions, fileOptions)
+    .sendDocument(
+      chatId,
+      fs.createReadStream("./2025_Document.pdf"),
+      queryOptions,
+      fileOptions
+    )
+    .then(() => {
+      console.log("Document sent successfully.");
+    })
     .catch((err) => console.error(`Failed to send document: `, err));
 }
 
